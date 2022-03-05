@@ -1,0 +1,74 @@
+.search-box .container {
+  background: white;
+  width: 500px;
+  margin: auto;
+  border: 1px solid #ddd;
+  border-radius: 100px;
+  padding: 20px;
+  color: #505060;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.15);
+}
+
+.search-box .cursor {
+  position: relative;
+}
+
+.search-box .cursor::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  position: absolute;
+  border-left: 2px solid #505060;
+  width: 2px;
+}
+
+#search {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 1em;
+  position: absolute;
+  right: 20px;
+  svg {
+    fill: gray;
+    stroke: gray;
+  }
+}
+
+#search.active {
+  &::before {
+    content: "";
+    display: block;
+    height: 150px;
+    width: 150px;
+    background: deepskyblue;
+    position: absolute;
+    animation-name: appear;
+    animation-duration: 0.7s;
+    border-radius: 50%;
+    animation-fill-mode: both;
+    animation-delay: 0.2s;
+  }
+  svg {
+    animation-name: click;
+    animation-duration: 0.6s;
+    animation-delay: 0.2s;
+  }
+}
+
+@keyframes appear {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes click {
+  25% {
+    transform: scale(0.9);
+    fill: black;
+    stroke: black;
+  }
+}

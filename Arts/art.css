@@ -4,13 +4,20 @@
   box-sizing: border-box;
 }
 
+h2 {
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 body {
   font-family: "Muli", sans-serif;
   overflow: hidden;
   margin: 0;
   background: #111;
   height: 100vh;
-  display: flex;
   justify-content: center;
   align-items: center;
 }

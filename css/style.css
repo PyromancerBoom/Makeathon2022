@@ -237,7 +237,7 @@ p {
 /*------------------ Landing Page ----------------------------*/
 main .site-title {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../assets/background.jpg");
+    url("../assets/bgimage.jpg");
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -246,8 +246,9 @@ main .site-title {
 }
 
 main .site-title .site-background {
+  float: left;
   padding-top: 15rem;
-  text-align: center;
+  text-align: left;
   color: var(--white);
 }
 

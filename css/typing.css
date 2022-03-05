@@ -18,7 +18,7 @@
 }
 
 .site-title .container-type p span.typed-text {
-  font-weight: normal;
+  font-weight: bold;
   color: red;
 }
 .site-title .container-type p span.cursor {
