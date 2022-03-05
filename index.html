@@ -6,7 +6,7 @@
     <title>Website</title>
 
     <link rel="stylesheet" href="./css/all.css">
-    <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./css/contact-form.css"/>
     <link rel="stylesheet" href="./css/style.css"/>
 </head>
 <body>
@@ -107,6 +107,49 @@
             </div>
         </section>
 
+        <section class="contact">
+            <div id="container">
+
+                <span class="input">
+                  <input type="text" class="input__field" id="input-1" />
+                  <label for="input-1" class="input__label">
+                    <span class="input__label-content">First Name</span>
+                </label>
+                </span>
+              
+                <span class="input">
+                  <input type="text" class="input__field" id="input-2" />
+                  <label for="input-2" class="input__label">
+                    <span class="input__label-content">Last Name</span>
+                  </label>
+                </span>
+              
+                <span class="input">
+                  <input type="text" class="input__field" id="input-3" />
+                  <label for="input-3" class="input__label">
+                    <span class="input__label-content">Phone Number</span>
+                  </label>
+                </span>
+              
+                <span class="input">
+                  <input type="text" class="input__field" id="input-4" />
+                  <label for="input-4" class="input__label">
+                    <span class="input__label-content">Email Address</span>
+                  </label>
+                </span>
+              
+                <span class="input message">
+                  <textarea class="input__field" id="input-5"></textarea>
+                  <label for="input-5" class="input__label">
+                    <span class="input__label-content">Message</span>
+                  </label>
+                </span>
+              
+                <button id="send-button" type="button" class="btn">Send</button>    
+              </div>
+        </div>
+        </section>
+
     </main>
 
     <footer class="footer" id="footerContent">
@@ -118,8 +161,8 @@
                     . Our aim is to serve as a safe haven for every queer artist, writer and creative director..</p>
             </div>
             <div class="contact-us">
-                <h2>Want to discuss something?</h2>
-                <button class="btn btn-post" onclick=" window.open('./Contact-form/contact.html','_blank')">Let's get in touch</button>
+                <h2>Want to discuss something? Checkout our blogs</h2>
+                <button class="btn btn-post" onclick=" window.open('./Contact-form/contact.html','_blank')">Blogs</button>
             </div>
             <div class="contact-us">
                 <h2>Connect with us here, in case you hate forms</h2>
@@ -135,13 +178,14 @@
             </div>
         </div>
         <div class="rights flex-row">
-            <h4 class="text-gray">Copyright &copy; 2022 | Designed with <i class="fa fa-heart" style="font-size:12px;color:red"></i> by Luna Nera</h4>
+            <h4 class="text-gray">Copyright &copy; 2022 | Designed with <i class="fa fa-heart" style="font-size:12px;color:red"></i> by The bug dealers</h4>
         </div>
     </footer>
         
     <script language="JavaScript" type="text/javascript" src="./js/Jquery3.6.0.min.js"></script>
     <script language="JavaScript" type="text/javascript" src="./js/aos.js"></script>
-    <script language="JavaScript" type="text/javascript" src="./js/typingEffect.js"></script>    
+    <script language="JavaScript" type="text/javascript" src="./js/typingEffect.js"></script>
+    <script language="JavaScript" type="text/javascript" src="./js/contact-form.js"></script>
     <script language="JavaScript" type="text/javascript" src="./js/main.js"></script>    
 </body>
 </html>

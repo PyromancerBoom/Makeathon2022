@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:200,500,700,800);
+
+main .contact {
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+main .contact #container {
+  position: relative;
+  background-blend-mode: multiply, multiply;
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+  width: 710px;
+  height: 5em;
+  left: 50%;
+  top: 50%;
+  margin-left: -355px;
+  margin-top: -2.5em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+main .contact .input {
+  position: relative;
+  margin: 1em;
+  width: calc(50% - 2em);
+  height: 80px;
+}
+
+main .contact .message {
+  width: calc(100% - 2em);
+  height: 200px;
+}
+
+main .contact textarea {
+  border: none;
+  resize: none;
+}
+
+main .contact .input__field {
+  position: absolute;
+  margin: 0.8em 0;
+  padding: 0.4em;
+  width: 100%;
+  height: calc(100% - 1.6em);
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  color: #ffcc00;
+  font-size: 1.55em;
+  font-weight: bold;
+  -webkit-appearance: none; /* for box shadows to show on iOS */
+}
+
+main .contact .input__field:focus {
+  outline: none;
+}
+
+main .contact .input__label {
+  position: absolute;
+  padding: 0 1em;
+  margin: 1.2em 0;
+  width: 100%;
+  height: calc(100% - 2.4em);
+  color: #fdfdfd;
+  font-weight: bold;
+  font-size: 70.25%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+main .contact .input__label-content {
+  position: relative;
+  display: block;
+  padding: 1.5em 0;
+  width: 100%;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+}
+
+main .contact .input__label::before,
+main .contact .input__label:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #6a7989;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+}
+
+main .contact .input__label::before {
+  top: 0;
+}
+
+main .contact .input__label::after {
+  bottom: 0;
+}
+
+main .contact .input__field:focus + .input__label .input__label-content,
+main .contact .input--filled .input__label-content {
+  -webkit-transform: translate3d(0, -90%, 0);
+  transform: translate3d(0, -90%, 0);
+}
+
+main .contact .input__field:focus + .input__label::before,
+main .contact .input--filled .input__label::before {
+  -webkit-transform: translate3d(0, -0.5em, 0);
+  transform: translate3d(0, -0.5em, 0);
+}
+
+main .contact .input__field:focus + .input__label::after,
+main .contact .input--filled .input__label::after {
+  -webkit-transform: translate3d(0, 0.5em, 0);
+  transform: translate3d(0, 0.5em, 0);
+}
+
+main .contact .btn {
+  border-radius: 0;
+  padding: 0.7rem 1.5rem;
+  background: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  border: none;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  font-family: var(--abel);
+  cursor: pointer;
+}
+
+main .contact .btn:hover {
+  background: transparent;
+  border: 1px solid var(--white);
+  color: var(--white); /* makes text white when button is transparent */
+}
