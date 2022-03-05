@@ -110,6 +110,7 @@ p {
 .nav .nav-menu .nav-brand .nav-image {
   padding: 0rem 0rem !important;
   border-radius: 10%;
+  margin-left: 5rem;
   padding: 5px;
   height: 35px;
   width: 35px;
@@ -174,7 +175,7 @@ p {
 }
 
 .nav .btn-5 {
-  margin-right: 15rem;
+  margin-right: 9rem;
   margin-top: 1rem;
   font-size: 15px;
   width: 130px;
