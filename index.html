@@ -1,0 +1,144 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
+      <nav class="nav">
+        <div class="nav-menu flex-row" id="Home">
+            <div class="nav-brand"> 
+            <!-------------- heading -------------->
+            <a href="#"><img src="./assets/fist.png" class="nav-image" alt="Prof.image"></a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#about">About us</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#blogs">Blogs</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="./Arts/art.html" target="_blank">Arts Gallery</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#footerContent">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+            <!--<button type="button" class="btn btn-outline-primary" style="color: white;">Sign in</button>
+            -->
+        </div>
+    </nav>
+
+      <main>
+      <section class="site-title">
+        <div class="site-background">
+            <h2> Hello there! Glad you stopped by.</h2>
+            <h1> Welcome to the Proud Place</h1>
+            <div class="down">
+                <a data-scroll href="#about">
+                  <div class="arrow"></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+        <section id="about">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 290"><path fill="#f3f4f5" fill-opacity="1" d="M0,192L34.3,197.3C68.6,203,137,213,206,224C274.3,235,343,245,411,234.7C480,224,549,192,617,192C685.7,192,754,224,823,245.3C891.4,267,960,277,1029,282.7C1097.1,288,1166,288,1234,277.3C1302.9,267,1371,245,1406,234.7L1440,224L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+            <div class="about-us-details">
+                <div class="about-main">
+                    <h2>Who are we?</h2>
+                    <h3>Pride is a celebration of the LGBTQ+ community and so are we! 
+                        As cliche as it will sound, our team believes in making the world a 
+                        better place for each and every person out there, no matter their gender identities. </h3>
+                    <br>
+                    <h3>
+                        If you are a part of the mighty rainbow, you are a part of us. We at the Proud Place
+                        provide people a platform for people to embark on their journey of self discovery and acceptance
+                        . Our aim is to serve as a safe haven for every queer artist, writer and creative director.
+                    </h3>
+                    <br>
+                    <div class="down">
+                        <a data-scroll href="#explore">
+                          <div class="arrow"></div>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="explore" id="explore">
+            <div class="about-us-explore">
+                <div class="about-main">
+                    <h2>Tell us your story!</h2>
+                    <h3>Through our platform, you can publish your own blogs and let the world experience it all through your words.
+                        <br>Visit our art corner! Here you will find books, movies, 
+                        music, art and lots more, all created by the great queer 
+                        personalities from all over the world.
+                        <br>Discover our river of self discovery! 
+                        <br>We have handpicked articles and blogs just for you, 
+                        and you will never have to feel alone again. Remember, we got you.
+                        <br>
+                        <br>
+                        <button class="btn" class="btn btn-post" onclick=" window.open('./Resources/resource.html','_blank')">Resources</button>
+                    <br>
+                    <br>
+                    <br>
+                    <button class="btn" class="btn btn-post" onclick=" window.open('./Arts/art.html','_blank')">The Art Gallery</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer" id="footerContent">
+        <div class="container">
+            <div class="about-us">
+                <h2>Tell us your story</h2>
+                <p>If you are a part of the mighty rainbow, you are a part of us. We
+                    provide people a platform for people to embark on their journey of self discovery and acceptance
+                    . Our aim is to serve as a safe haven for every queer artist, writer and creative director..</p>
+            </div>
+            <div class="contact-us">
+                <h2>Want to discuss something?</h2>
+                <button class="btn btn-post" onclick=" window.open('./Contact-form/contact.html','_blank')">Let's get in touch</button>
+            </div>
+            <div class="contact-us">
+                <h2>Connect with us here, in case you hate forms</h2>
+                <div class="footer-social text-gray">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fas fa-envelope-square"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="misc">
+                <h2>Well, until next time. Good day.</h2>
+            </div>
+        </div>
+        <div class="rights flex-row">
+            <h4 class="text-gray">Copyright &copy; 2022 | Designed with <i class="fa fa-heart" style="font-size:12px;color:red"></i> by Luna Nera</h4>
+        </div>
+    </footer>
+        
+    <script language="JavaScript" type="text/javascript" src="./js/Jquery3.6.0.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="./js/aos.js"></script>    
+    <script language="JavaScript" type="text/javascript" src="./js/main.js"></script>    
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
