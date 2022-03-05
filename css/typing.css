@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+.site-title .container-type {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-title .container-type p {
+  font-size: 3rem;
+  padding: 0.5rem;
+  color: #ffffff;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.site-title .container-type p span.typed-text {
+  font-weight: normal;
+  color: red;
+}
+.site-title .container-type p span.cursor {
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.site-title .container-type p span.cursor.typing {
+  animation: none;
+}
+
+@keyframes blink {
+  0% {
+    background-color: rgb(255, 255, 255);
+  }
+  49% {
+    background-color: #ccc;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #ccc;
+  }
+}
