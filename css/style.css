@@ -126,6 +126,7 @@ p {
   width: 90%;
   cursor: pointer;
   display: none;
+  color: #fff;
 }
 
 .nav .toggle-collapse .toggle-icons {
@@ -246,9 +247,9 @@ main .site-title {
 }
 
 main .site-title .site-background {
-  float: left;
+  /*float: left;*/
   padding-top: 15rem;
-  text-align: left;
+  text-align: center;
   color: var(--white);
 }
 
